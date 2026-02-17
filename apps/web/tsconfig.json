@@ -1,12 +1,15 @@
 {
   "compilerOptions": {
     "outDir": "./dist/",
-    "noImplicitAny": true,
-    "module": "esnext",
-    "target": "es2017",
-    "allowJs": true,
+    "target": "ES2020",
+    "module": "ESNext",
     "moduleResolution": "bundler",
-    "strict": true
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "strict": true,
+    "noImplicitAny": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "isolatedModules": true
   },
   "include": ["src/**/*"]
 }
