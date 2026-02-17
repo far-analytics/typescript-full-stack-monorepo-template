@@ -41,7 +41,7 @@ The API reads these values from `.env`:
 
 - `KEY_PATH`: Path to your TLS private key.
 - `CERT_PATH`: Path to your TLS certificate.
-- `WEB_ROOT`: Absolute path to the web build output (e.g. `./apps/web/dist`).
+- `WEB_ROOT`: Absolute path to the web build output (e.g. `[...]/apps/web/dist`).
 - `HOST_NAME`: Bind address (e.g. `0.0.0.0`).
 - `PORT`: HTTPS port (e.g. `8443`).
 
